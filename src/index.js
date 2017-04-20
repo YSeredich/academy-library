@@ -3,8 +3,7 @@
  */
 class Schedule {
     /**
-     * Create a schedule.
-     * @param {Object} state
+     * Create an empty schedule.
      */
     constructor() {
         this._state = {
@@ -742,4 +741,4 @@ class Schedule {
     }
 }
 
-export default Schedule;
+export { Schedule };

@@ -1,5 +1,5 @@
 import assert from 'assert';
-import Schedule from './index';
+import { Schedule } from './index';
 
 const testState = () => {
     return JSON.stringify({
@@ -13,8 +13,8 @@ const testState = () => {
                 dateTo: new Date(2017, 5, 25, 21, 30)
             }
         ],
-        schools: [ {name: 'ШРИ',students: 55} ],
-        classrooms: [ {name: 'rabbit',size: 100,description: 'Very big description'} ],
+        schools: [ {name: 'ШРИ', students: 55} ],
+        classrooms: [ {name: 'rabbit', size: 100, description: 'Very big description'} ],
         teachers: [ {name: 'Попов'} ]
     });
 };
