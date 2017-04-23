@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/YSeredich/academy-library.svg?branch=master)](https://travis-ci.org/YSeredich/academy-library)
+[![npm version](https://badge.fury.io/js/y-schedule.svg)](https://badge.fury.io/js/y-schedule)
 
 # academy-library
 Библиотека `y-schedule` предоставляет API для работы с расписанием лекций Яндекс Мобилизации.
@@ -13,10 +14,10 @@
  
 ## Чтобы воспользоваться библиотекой:
  
- * вы можете скачать её по ссылке [y-schedule.js](https://unpkg.com/y-schedule@1.1.0/dist/y-schedule.js) 
+ * вы можете скачать её по ссылке [y-schedule.js](https://unpkg.com/y-schedule/dist/browser-y-schedule.js) 
  * подключить с помощью тега скрипт 
  ```
-<script src="https://unpkg.com/y-schedule@1.1.0/dist/y-schedule.js"></script>
+<script src="https://unpkg.com/y-schedule/dist/browser-y-schedule.js"></script>
  ```
  * или воспользоваться менеджером пакетов 
  ```
@@ -271,9 +272,11 @@
 
 ## Для того, чтобы увидеть пример пользования библиотекой сделайте следующее:
 
+### node
+
 ```
     git clone https://github.com/YSeredich/academy-library.git
-    cd academy-library/examples/demo-project/
+    cd academy-library/examples/demo-project-node/
     npm install y-schedule --save
     node index.js
 ```
@@ -281,6 +284,10 @@
 В файле `academy-library/examples/demo-project/index.js` вы можете увидеть код примера и описание, а в консоли вывод данных на определенных этапах демонстрации.
 
 Если удобно можно попробовать воспользоваться бибилиотекой вот [здесь](https://runkit.com/npm/y-schedule).
+
+### browser
+
+Пример в папке `academy-library/examples/demo-project-browser/`
 
 ## Библиотека гарантирует корректность и связанность данных:
     
